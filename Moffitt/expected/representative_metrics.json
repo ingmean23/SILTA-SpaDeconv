@@ -1,0 +1,14 @@
+{
+  "benchmark": "Moffitt Benchmark B",
+  "cell_types": 45,
+  "configuration": "Q1C1",
+  "fold": "B-M1",
+  "metrics": {
+    "ST_JSD": 0.44336936585837106,
+    "ST_Pearson": 0.8305094286730271,
+    "ST_RMSE": 0.036826191206701414,
+    "ST_SSIM": 0.8439596654098565,
+    "rare_macro_f1": 0.3477656419416189
+  },
+  "model_seed": 42
+}

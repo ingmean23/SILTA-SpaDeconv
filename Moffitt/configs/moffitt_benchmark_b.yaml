@@ -1,0 +1,18 @@
+model: SILTA
+benchmark: Moffitt Benchmark B
+checkpoint: ../checkpoints/silta_moffitt_B-M1_seed42.pt
+released_fold: B-M1
+released_model_seed: 42
+genes: embedded_in_checkpoint
+cell_types: embedded_in_checkpoint
+preprocessing:
+  expression_transform: per-gene z-score
+  log1p: false
+  expression_k: 6
+  expression_min_degree: 6
+  spatial_distance_scale: 1.5
+  spatial_min_neighbors: 4
+evaluation:
+  temperature: embedded_in_checkpoint
+  posterior_mean: true
+  target_truth_used_during_inference: false

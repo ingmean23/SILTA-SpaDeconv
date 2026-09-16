@@ -1,0 +1,2 @@
+model,benchmark,configuration,folds,model_seeds,runs,ST_RMSE,ST_JSD,ST_SSIM,ST_Pearson
+SILTA,Moffitt Benchmark B,Q1C1,3,3,9,0.03891611628175914,0.4468685892227466,0.8337647860298012,0.8205993428720442
