@@ -1,0 +1,28 @@
+{
+  "absolute_path_hits": [],
+  "checkpoint": {
+    "file": "checkpoint/silta_dlpfc_mix5_best_single_seed.model",
+    "sha256": "31f72b63d559169f784f997711dad45d74159968b5bf29c23d73fc40e289fcba",
+    "strict_model_load": true,
+    "tensor_count": 168,
+    "weights_only_load": true
+  },
+  "file_issues": [],
+  "licenses": {
+    "dependencies": {
+      "anndata": "BSD-3-Clause",
+      "h5py": "BSD-3-Clause",
+      "matplotlib": "PSF-based",
+      "numpy": "BSD-3-Clause",
+      "pandas": "BSD-3-Clause",
+      "scanpy": "BSD-3-Clause",
+      "scikit-learn": "BSD-3-Clause",
+      "scipy": "BSD-3-Clause",
+      "torch": "BSD-3-Clause"
+    },
+    "release_license": "MIT",
+    "vendored_third_party_source": false
+  },
+  "passed": true,
+  "secret_hits": []
+}

@@ -1,0 +1,447 @@
+{
+  "protocol": "direct marker-fraction colocalization v1",
+  "dataset_id": "hbc",
+  "selection_source": "SC reference expression; ST used only for gene availability",
+  "celltype_key": "celltype",
+  "cell_types": [
+    "macrophage/DC/monocyte",
+    "fibroblast",
+    "lymphatic endothelial cell",
+    "T cell",
+    "muscle cell",
+    "plasma cell",
+    "vascular endothelial cell",
+    "pDC",
+    "NK cell",
+    "luminal progenitor",
+    "luminal cell",
+    "myoepithelial cell",
+    "B cell"
+  ],
+  "markers_by_cell_type": {
+    "macrophage/DC/monocyte": [
+      {
+        "gene": "RETN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "RNASE2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FPR2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CD1B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "OSCAR",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "fibroblast": [
+      {
+        "gene": "CCL11",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "OMD",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "DCX",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MMP13",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CNTN1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "lymphatic endothelial cell": [
+      {
+        "gene": "ART4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MMRN1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "KLHL4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "GPR1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SCN3B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "T cell": [
+      {
+        "gene": "TRAV8-2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CPA5",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PMCH",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TRAV4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CD8B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "muscle cell": [
+      {
+        "gene": "SLC6A1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ACAN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ACTC1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "AVPR1A",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CDH6",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "plasma cell": [
+      {
+        "gene": "FAM92B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "IGLC6",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "DPEP1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "IGLC7",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "JSRP1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "vascular endothelial cell": [
+      {
+        "gene": "CCDC178",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FCN3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "EXOC3L2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "C1QTNF9",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TPO",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "pDC": [
+      {
+        "gene": "SHD",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "DRD4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PTCRA",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PACSIN1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CUX2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "NK cell": [
+      {
+        "gene": "SH2D1B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "KLRF1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TRDC",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "GNLY",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FGFBP2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "luminal progenitor": [
+      {
+        "gene": "SERPINB7",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TCN1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "OLFM4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SAA4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MUC15",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "luminal cell": [
+      {
+        "gene": "TTC6",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ALDH3B2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CAPN13",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "HGD",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ANKRD30B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "myoepithelial cell": [
+      {
+        "gene": "WIF1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "IGFBP1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "COL17A1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CYP26A1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CAMK2B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "B cell": [
+      {
+        "gene": "FCRL1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FCER2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "LINC00926",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MS4A1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CD19",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ]
+  },
+  "marker_genes": [
+    "RETN",
+    "RNASE2",
+    "FPR2",
+    "CD1B",
+    "OSCAR",
+    "CCL11",
+    "OMD",
+    "DCX",
+    "MMP13",
+    "CNTN1",
+    "ART4",
+    "MMRN1",
+    "KLHL4",
+    "GPR1",
+    "SCN3B",
+    "TRAV8-2",
+    "CPA5",
+    "PMCH",
+    "TRAV4",
+    "CD8B",
+    "SLC6A1",
+    "ACAN",
+    "ACTC1",
+    "AVPR1A",
+    "CDH6",
+    "FAM92B",
+    "IGLC6",
+    "DPEP1",
+    "IGLC7",
+    "JSRP1",
+    "CCDC178",
+    "FCN3",
+    "EXOC3L2",
+    "C1QTNF9",
+    "TPO",
+    "SHD",
+    "DRD4",
+    "PTCRA",
+    "PACSIN1",
+    "CUX2",
+    "SH2D1B",
+    "KLRF1",
+    "TRDC",
+    "GNLY",
+    "FGFBP2",
+    "SERPINB7",
+    "TCN1",
+    "OLFM4",
+    "SAA4",
+    "MUC15",
+    "TTC6",
+    "ALDH3B2",
+    "CAPN13",
+    "HGD",
+    "ANKRD30B",
+    "WIF1",
+    "IGFBP1",
+    "COL17A1",
+    "CYP26A1",
+    "CAMK2B",
+    "FCRL1",
+    "FCER2",
+    "LINC00926",
+    "MS4A1",
+    "CD19"
+  ],
+  "source_panel_sha256": "c6c479e97279f20ed0f0739ab276f816fe5690f939b636591e3d7c136ee95842",
+  "marker_genes_remain_in_model_input": true,
+  "final_metric_uses_sc_signature": false,
+  "final_metric_definition": "corr(predicted fraction, observed ST marker expression)",
+  "source_panel_note": "Original source-panel path removed from the public package; source SHA256 retained.",
+  "direct_panel_sha256": "08ed02a498e40d06749a93c91ffd8ad7539ca7213d545dd4bfc4bd1a90459c9c"
+}

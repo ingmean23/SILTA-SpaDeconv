@@ -1,0 +1,17 @@
+{
+  "benchmark": "OSM Benchmark B",
+  "model": "SILTA",
+  "artifact": "checkpoint/silta_osm_b_fold42_seed42.model",
+  "split_seed": 42,
+  "model_seed": 42,
+  "epoch": 7,
+  "calibration": "C04_typeT025_bias0125",
+  "selection_used_target_truth": false,
+  "metrics": {
+    "RMSE": 0.06405834734937287,
+    "JSD": 0.4592002232003519,
+    "SSIM": 0.8049381437538315,
+    "PCC": 0.7997475185758999
+  },
+  "note": "This is the freshly recovered representative checkpoint, not the arithmetic mean of the historical nine registered runs."
+}

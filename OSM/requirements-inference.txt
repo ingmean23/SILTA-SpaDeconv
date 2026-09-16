@@ -1,0 +1,2 @@
+# The author-owned inference runtime is bundled in src/silta_osm.
+-r requirements.txt

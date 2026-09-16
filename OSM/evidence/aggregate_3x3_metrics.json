@@ -1,0 +1,18 @@
+{
+  "benchmark": "OSM Benchmark B",
+  "model": "SILTA",
+  "split_seeds": [17, 42, 89],
+  "model_seeds": [17, 42, 89],
+  "run_count": 9,
+  "valid_run_count": 9,
+  "aggregation": "arithmetic mean across all registered split/model-seed pairs",
+  "metrics": {
+    "RMSE": 0.0642916255909646,
+    "JSD": 0.458654582307015,
+    "SSIM": 0.805255941473203,
+    "PCC": 0.799278328963427,
+    "Edge_MCC": 0.451128985828434,
+    "boundary_abs_error": 0.0266178696555419,
+    "rare_type_AUPRC": 0.634364067663922
+  }
+}

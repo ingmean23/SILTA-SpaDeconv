@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "anndata": "BSD-3-Clause",
+    "h5py": "BSD-3-Clause",
+    "matplotlib": "PSF-based",
+    "numpy": "BSD-3-Clause",
+    "pandas": "BSD-3-Clause",
+    "scanpy": "BSD-3-Clause",
+    "scikit-learn": "BSD-3-Clause",
+    "scipy": "BSD-3-Clause",
+    "torch": "BSD-3-Clause"
+  },
+  "release_license": "MIT",
+  "vendored_third_party_source": false
+}

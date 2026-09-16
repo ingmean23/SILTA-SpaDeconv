@@ -1,0 +1,36 @@
+{
+  "dataset": "Melanoma ds6 (Melanoma 4, replicate 1)",
+  "raw_data_included": false,
+  "files": [
+    {
+      "role": "ST AnnData used for inference",
+      "suggested_path": "data/ds6/st.h5ad",
+      "size_bytes": 1113088,
+      "sha256": "f64e4e07465a63fad5e49ea314f89d77f00a13cc0768869dd836707314669223"
+    },
+    {
+      "role": "SC AnnData used for training provenance",
+      "suggested_path": "data/ds6/sc.h5ad",
+      "size_bytes": 253361419,
+      "sha256": "793612669b6fdecf86cf1f20e6f4811b8373a8d80cabc065d20ead882e5cc298"
+    },
+    {
+      "role": "PNP3 pseudo-spots used for graph/gene alignment",
+      "suggested_path": "data/ds6/pseudo_optimize_fm_pnp_pnp3.h5ad",
+      "size_bytes": 292898568,
+      "sha256": "f94e387ec9803eaca8b9bb6ad1e8e0fe369fa1e215a8378ac3b978e53729b4fe"
+    },
+    {
+      "role": "Raw ST counts used by marker evaluation",
+      "suggested_path": "data/ds6/ST_mel4_rep1_counts.tsv",
+      "size_bytes": 6447074,
+      "sha256": "586c321709a083ad88315d4a1124007a6e21009724f9f544fd8dbe2ca1e512d0"
+    },
+    {
+      "role": "Spatial coordinates",
+      "suggested_path": "data/ds6/ST_mel4_rep1_cor.txt",
+      "size_bytes": 2483,
+      "sha256": "f80be99b785e4e9d348e6c5e09cc0405a09a3abc23b571814c411f9330baa623"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "evaluation": "representative checkpoint evaluated as one fixed method across all five Track-B folds",
+  "balanced_accuracy": 0.7668128961377028,
+  "macro_f1": 0.7543177727007955,
+  "macro_auroc": 0.9336830514543862,
+  "verified_locally": true
+}

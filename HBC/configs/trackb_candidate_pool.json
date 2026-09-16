@@ -1,0 +1,41 @@
+{
+  "protocol": "leakage-controlled nested Track-B complete-search selection",
+  "display_name": "SILTA",
+  "candidates": {
+    "J0": {
+      "candidate_id": "e80__pordinary__i1__r0__alegacy__g1__x0p25__slr2p0e-04__w5__j0__elr0p0e00__dlr0p0e00__q0p05__b0",
+      "stage1_endpoint": 80,
+      "warmup_steps": 5,
+      "joint_steps": 0,
+      "e1_lr": 0.0,
+      "readout_lr": 0.0,
+      "selected_folds": [
+        "fold_0",
+        "fold_2",
+        "fold_3"
+      ],
+      "checkpoint": "checkpoints/SILTA_HBC_TrackB_J0.model"
+    },
+    "J1": {
+      "candidate_id": "e80__pordinary__i1__r0__alegacy__g1__x0p25__slr2p0e-04__w5__j1__elr2p0e-07__dlr5p0e-07__q0p05__b0",
+      "stage1_endpoint": 80,
+      "warmup_steps": 5,
+      "joint_steps": 1,
+      "e1_lr": 2e-07,
+      "readout_lr": 5e-07,
+      "selected_folds": [
+        "fold_1",
+        "fold_4"
+      ],
+      "checkpoint": null,
+      "checkpoint_note": "Grid checkpoint was intentionally not retained; regenerate this endpoint from the documented training profile."
+    }
+  },
+  "sealed_complete_search_metrics": {
+    "reproducible_from_this_package": false,
+    "provenance_only": true,
+    "balanced_accuracy": 0.7847291723438397,
+    "macro_f1": 0.7720106109438348,
+    "macro_auroc": 0.9382780434608075
+  }
+}

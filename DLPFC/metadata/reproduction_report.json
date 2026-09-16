@@ -1,0 +1,15 @@
+{
+  "endpoint": "DLPFC ds11/151673, MALL_fixedG5_identity, epoch 45",
+  "checkpoint_source_sha256": "edd5dfe159505168f09d8f442269338a5740fee9aa595aa87aa6c09d1d06faea",
+  "checkpoint_release_sha256": "31f72b63d559169f784f997711dad45d74159968b5bf29c23d73fc40e289fcba",
+  "checkpoint_release_tensor_count": 168,
+  "locked_prediction_sha256": "1d3abace20ea2892437b382608bd52c889d39b26226631608bd86976e0fa57ac",
+  "shape": [3639, 33],
+  "spot_order_equal": true,
+  "cell_type_order_equal": true,
+  "mean_absolute_error": 2.3031924563056492e-08,
+  "maximum_absolute_error": 0.0001918699999999829,
+  "accepted_float_tolerance": 0.0002,
+  "within_tolerance": true,
+  "note": "The tiny device-dependent difference is confined to hypergraph scatter-reduction accumulation order."
+}

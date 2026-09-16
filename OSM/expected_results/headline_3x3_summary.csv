@@ -1,0 +1,2 @@
+model,benchmark,split_seeds,model_seeds,run_count,valid_run_count,RMSE,JSD,SSIM,PCC
+SILTA,OSM Benchmark B,"17|42|89","17|42|89",9,9,0.0642916255909646,0.458654582307015,0.805255941473203,0.799278328963427

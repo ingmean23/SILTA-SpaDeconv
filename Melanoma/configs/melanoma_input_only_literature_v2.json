@@ -1,0 +1,50 @@
+{
+  "protocol": "melanoma marker evidence v2",
+  "dataset_id": "melanoma_all8",
+  "panel_role": "input_only",
+  "selection_source": "fixed literature candidate panels; filtered by G5 non-overlap and all-slice ST availability without using prediction scores",
+  "cell_types": ["Malignant", "CAF", "Endo", "Macro", "NK", "T"],
+  "source_label_interpretation": {"Malignant": "B-like source cluster; secondary diagnostic only"},
+  "markers_by_cell_type": {
+    "Malignant": [
+      {"gene": "CD37", "literature_source": "melanoma_marker_c_v2_sealed", "training_use_status": "input_only"},
+      {"gene": "CD74", "literature_source": "melanoma_marker_c_v2_sealed", "training_use_status": "input_only"},
+      {"gene": "CD22", "literature_source": "B-cell lineage marker; fixed before evaluation", "training_use_status": "input_only"}
+    ],
+    "CAF": [
+      {"gene": "COL1A1", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "DCN", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "LUM", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "ACTA2", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"}
+    ],
+    "Endo": [
+      {"gene": "PECAM1", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "KDR", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "ENG", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "ESAM", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"}
+    ],
+    "Macro": [
+      {"gene": "LST1", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "C1QB", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "CD68", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "AIF1", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "FCGR3A", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"}
+    ],
+    "NK": [
+      {"gene": "GNLY", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "PRF1", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "KLRD1", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "GZMB", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "FGFBP2", "literature_source": "melanoma_marker_c_v2_sealed", "training_use_status": "input_only"}
+    ],
+    "T": [
+      {"gene": "CD3E", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "CD2", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "CD8B", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "CD4", "literature_source": "melanoma_marker_c_fixed_literature_v1", "training_use_status": "input_only"},
+      {"gene": "CD5", "literature_source": "melanoma_marker_c_v2_sealed", "training_use_status": "input_only"}
+    ]
+  },
+  "excluded_supervision_markers": ["COL1A2", "COL3A1", "VWF", "CDH5", "C1QA", "C1QC", "NKG7", "IL7R"],
+  "direct_panel_sha256": "5189b571abbbebf5f3e342b0127dab9cdd55e566a72378a39cd01b4c380c3827"
+}

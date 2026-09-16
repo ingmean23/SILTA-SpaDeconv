@@ -1,0 +1,56 @@
+{
+  "benchmark": "OSM Benchmark B",
+  "epoch": 7,
+  "files": {
+    "calibration_parameters": {
+      "bytes": 5214,
+      "path": "../calibration/C04_parameters.json",
+      "sha256": "b1e4538f554a32ff124e10289048cd315b9545a38211c8cde658b14dfa26584a",
+      "source_sha256": "027818adf8f8ce45b7e81239359ec347aa27a986511b2f8b2d04d686a0ff40ee"
+    },
+    "calibration_state": {
+      "bytes": 7314,
+      "path": "../calibration/C01_C04_state.pt",
+      "sha256": "e6da86cf3682c0323a1c300ad99c62e86b57759f1938f04228b08b0f531534b8",
+      "source_sha256": "931e2129d5779c65f538a83302da23db2a550a8daffdb218326f97c32adc0dd7"
+    },
+    "checkpoint": {
+      "bytes": 40152899,
+      "path": "../checkpoint/silta_osm_b_fold42_seed42.model",
+      "sha256": "d6ce89ae28617cc768b499b503ae6cb4dcb58ba2357717e489ac30c0c53c10fa"
+    },
+    "config": {
+      "path": "silta_osm_b_fold42_seed42.json"
+    }
+  },
+  "headline_3x3": {
+    "ST_JSD": 0.458655,
+    "ST_Pearson": 0.799278,
+    "ST_RMSE": 0.064292,
+    "ST_SSIM": 0.805256
+  },
+  "historical_representative_metrics": {
+    "ST_JSD": 0.4582616770208819,
+    "ST_Pearson": 0.8025134624359118,
+    "ST_RMSE": 0.0635139603567979,
+    "ST_SSIM": 0.8075529064131107
+  },
+  "model": "SILTA",
+  "model_seed": 42,
+  "representative_metrics": {
+    "ST_JSD": 0.4592002232003519,
+    "ST_Pearson": 0.7997475185758999,
+    "ST_RMSE": 0.06405834734937287,
+    "ST_SSIM": 0.8049381437538315
+  },
+  "sanitization": "Only release-relative metadata paths are retained; tensor parameters are unchanged.",
+  "schema_version": 1,
+  "selection_contract": {
+    "calibration_id": "C04_typeT025_bias0125",
+    "target_truth_read_only_after_lock": true,
+    "target_truth_used_for_selection": false
+  },
+  "source_manifest_sha256": "7ceef0c12c572fecfdb162e2318af2014dbd3b2c9708b1f402a3a34025c56568",
+  "split_seed": 42,
+  "task_id": "C_confirm_3x3_A_fixed_h2_b1_g0.1_ms42_f42"
+}

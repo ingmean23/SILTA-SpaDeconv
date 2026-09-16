@@ -1,0 +1,24 @@
+{
+  "protocol": "direct marker-fraction colocalization v2",
+  "dataset_id": "melanoma_ds6_input_only_v2",
+  "slice": "ds6",
+  "method": "DACG_ds6_T_C0_e2_seed42",
+  "prediction": "expected/ds6_T/fractions.csv",
+  "prediction_sha256": "cf7cde5149f00116c3d17ded16af2f3b00801688311b8807aa9e7ff12ecdb0c4",
+  "panel": "configs/melanoma_input_only_literature_v2.json",
+  "panel_file_sha256": "b1dd04f6c3c5d5605fda3b3ce141c011eb097c6942bd2c6a7dec191bc394fe23",
+  "marker_count": 26,
+  "primary_cell_types": ["CAF", "Endo", "Macro", "NK", "T"],
+  "t_cell": {
+    "mean_marker_pcc_strict": 0.0699059108699994,
+    "mean_marker_spearman_strict": 0.0658180680674039
+  },
+  "macro_primary": {
+    "mean_marker_pcc_strict": 0.0005779106045289472,
+    "mean_marker_spearman_strict": 0.011594633356936935
+  },
+  "all_source_types": {
+    "mean_marker_pcc_strict": 0.0020202915918123136,
+    "mean_marker_spearman_strict": 0.010974726295089611
+  }
+}

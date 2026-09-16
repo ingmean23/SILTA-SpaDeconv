@@ -1,0 +1,18 @@
+{
+  "benchmark": "OSM Benchmark B",
+  "model": "SILTA",
+  "split_seed": 42,
+  "model_seed": 42,
+  "epoch": 7,
+  "calibration": "C04_typeT025_bias0125",
+  "target_truth_used_for_selection": false,
+  "recovery_tag": "osm_silta_release_fold42_seed42_v1",
+  "relationship_to_aggregate": "Same locked configuration, freshly recovered checkpoint; not an additional member of the historical 3x3 aggregate.",
+  "metrics": {
+    "RMSE": 0.06405834734937287,
+    "JSD": 0.4592002232003519,
+    "SSIM": 0.8049381437538315,
+    "PCC": 0.7997475185758999
+  },
+  "structural_valid": true
+}

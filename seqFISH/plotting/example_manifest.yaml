@@ -1,0 +1,43 @@
+benchmark: "OSM Benchmark B"
+ground_truth: "tables/ground_truth_fractions.tsv"
+coordinates: "tables/locations.tsv"
+metrics: "tables/method_summary.csv"
+output_dir: "figures/standard_suite"
+dacg_method: "SILTA"
+spot_id_column: "spot_id"
+coordinate_spot_id_column: "spot_id"
+coordinate_columns: ["x", "y"]
+invert_y: true
+spatial_context: "Ground truth and predictions on the same spots; locked split and algorithm/model seed."
+paired_composite: true
+composite_show_title: true
+composite_tile_wspace: 0.12
+composite_title_fontsize: 16.0
+composite_method_fontsize: 12.6
+composite_legend_ncol: 8
+
+row_sum_atol: 1.0e-6
+renormalize_atol: 1.0e-3
+negative_atol: 1.0e-10
+dominant_marker_size: 20
+dominant_render_mode: "scatter"
+pie_radius_scale: 0.42
+
+methods:
+  - name: "SILTA"
+    prediction: "predictions/silta.tsv.gz"
+    valid: true
+    n: 9
+  - name: "Stereoscope"
+    prediction: "predictions/stereoscope.tsv.gz"
+    valid: true
+    n: 9
+  - name: "RCTD"
+    prediction: "predictions/rctd.tsv.gz"
+    valid: true
+    n: 3
+  - name: "GMGAT"
+    prediction: "predictions/gmgat.tsv.gz"
+    valid: false
+    invalid_reason: "structural validity"
+    n: 3

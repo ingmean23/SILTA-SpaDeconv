@@ -1,0 +1,1107 @@
+{
+  "protocol": "direct marker-fraction colocalization v1",
+  "dataset_id": "dlpfc",
+  "selection_source": "SC reference expression; ST used only for gene availability",
+  "celltype_key": "celltype",
+  "cell_types": [
+    "Ex_10_L2_4",
+    "Inhib_5",
+    "Ex_8_L5_6",
+    "Inhib_2_VIP",
+    "Mix_2",
+    "Oligos_3",
+    "Ex_7_L4_6",
+    "Astros_3",
+    "Ex_5_L5",
+    "Micro/Macro",
+    "Astros_2",
+    "Ex_6_L4_6",
+    "Inhib_1",
+    "OPCs_1",
+    "Inhib_3_SST",
+    "Inhib_6_SST",
+    "Ex_2_L5",
+    "Inhib_8_PVALB",
+    "Mix_5",
+    "Inhib_7_PVALB",
+    "Ex_3_L4_5",
+    "Mix_4",
+    "Oligos_2",
+    "Mix_3",
+    "Endo",
+    "OPCs_2",
+    "Ex_1_L5_6",
+    "Mix_1",
+    "Oligos_1",
+    "Ex_9_L5_6",
+    "Ex_4_L_6",
+    "Inhib_4_SST",
+    "Astros_1"
+  ],
+  "markers_by_cell_type": {
+    "Ex_10_L2_4": [
+      {
+        "gene": "LINC01378",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CBLN2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "KCNIP4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CNGB1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CUX2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Inhib_5": [
+      {
+        "gene": "MYO5B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ERBB4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MEPE",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ZNF804A",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SLIT2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_8_L5_6": [
+      {
+        "gene": "NPFFR2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "HS3ST4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "DPP4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SEMA3E",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "IQCF3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Inhib_2_VIP": [
+      {
+        "gene": "VIP",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CHRNA2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TAC3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CALB2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SHISA8",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Mix_2": [
+      {
+        "gene": "DHFR",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MTRNR2L12",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MTRNR2L1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "DDN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SOWAHA",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Oligos_3": [
+      {
+        "gene": "LINC01608",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CERCAM",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "OPALIN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ST18",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CNDP1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_7_L4_6": [
+      {
+        "gene": "ARSJ",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CADPS2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TLL1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "NRG1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FSTL4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Astros_3": [
+      {
+        "gene": "ADGRV1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "RNF219-AS1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SLC1A2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ZNF98",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "GPC5",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_5_L5": [
+      {
+        "gene": "ENC1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CHN1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MAP1B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "YWHAH",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ARPP19",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Micro/Macro": [
+      {
+        "gene": "CX3CR1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CLEC7A",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CD86",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "P2RY13",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SYK",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Astros_2": [
+      {
+        "gene": "FGFR3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "COL5A3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SLC13A5",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SLC25A18",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "AC007325.2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_6_L4_6": [
+      {
+        "gene": "TSHZ2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "COL22A1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "LINC01202",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SLC22A10",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "RORB",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Inhib_1": [
+      {
+        "gene": "KIT",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PRELID2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "EYA4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PDGFD",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FGF13",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "OPCs_1": [
+      {
+        "gene": "COL20A1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CSPG4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PTPRZ1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FERMT1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PCDH15",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Inhib_3_SST": [
+      {
+        "gene": "RELN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "NDNF",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CXCL14",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ADARB2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FREM1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Inhib_6_SST": [
+      {
+        "gene": "NPY",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SST",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "NMU",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SYNPR",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TRBC2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_2_L5": [
+      {
+        "gene": "NEFM",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "NEFL",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "VSNL1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TUBB2A",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CTXN3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Inhib_8_PVALB": [
+      {
+        "gene": "IBSP",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "NOG",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "NPNT",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "COL15A1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CNTN5",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Mix_5": [
+      {
+        "gene": "GRIK1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ELFN1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ROBO2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PDIA2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "UPP1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Inhib_7_PVALB": [
+      {
+        "gene": "PVALB",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "NPPC",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "GAD1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "WNT16",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SULF1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_3_L4_5": [
+      {
+        "gene": "SLC17A7",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PHYHIP",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "NRGN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SLC30A3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ADCYAP1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Mix_4": [
+      {
+        "gene": "KIFC2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TNNT2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ALS2CL",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ABCA7",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MAPK11",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Oligos_2": [
+      {
+        "gene": "GPR17",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "LINC01447",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "DCT",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ZNF469",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "BCAS1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Mix_3": [
+      {
+        "gene": "RPL32",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TAC1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ATP1B1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CAMK2N2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "HAPLN4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Endo": [
+      {
+        "gene": "FOXF1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SEMA3G",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CLDN5",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "LRRC32",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "GATA2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "OPCs_2": [
+      {
+        "gene": "LHFPL3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PDGFRA",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "VCAN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "GPNMB",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MEGF11",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_1_L5_6": [
+      {
+        "gene": "IL26",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "HTR2C",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PPP1R1C",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FER1L6-AS2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CD36",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Mix_1": [
+      {
+        "gene": "MTRNR2L8",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FTL",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FAM107A",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FTH1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CST3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Oligos_1": [
+      {
+        "gene": "LINC01445",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "LINC00323",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MOBP",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PLP1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ERMN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_9_L5_6": [
+      {
+        "gene": "CSN1S1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "GABRQ",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "PQLC2L",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "METTL7B",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "TXK",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Ex_4_L_6": [
+      {
+        "gene": "SMYD1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "POSTN",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "IL7R",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "MCTP2",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "THEMIS",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Inhib_4_SST": [
+      {
+        "gene": "NPAS4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "EGR4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FOSB",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "FOS",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "ARC",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ],
+    "Astros_1": [
+      {
+        "gene": "ANGPTL4",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "IGHG1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "CHI3L1",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "HILPDA",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      },
+      {
+        "gene": "SOCS3",
+        "source": "locked_source_panel",
+        "training_use_status": "unknown"
+      }
+    ]
+  },
+  "marker_genes": [
+    "LINC01378",
+    "CBLN2",
+    "KCNIP4",
+    "CNGB1",
+    "CUX2",
+    "MYO5B",
+    "ERBB4",
+    "MEPE",
+    "ZNF804A",
+    "SLIT2",
+    "NPFFR2",
+    "HS3ST4",
+    "DPP4",
+    "SEMA3E",
+    "IQCF3",
+    "VIP",
+    "CHRNA2",
+    "TAC3",
+    "CALB2",
+    "SHISA8",
+    "DHFR",
+    "MTRNR2L12",
+    "MTRNR2L1",
+    "DDN",
+    "SOWAHA",
+    "LINC01608",
+    "CERCAM",
+    "OPALIN",
+    "ST18",
+    "CNDP1",
+    "ARSJ",
+    "CADPS2",
+    "TLL1",
+    "NRG1",
+    "FSTL4",
+    "ADGRV1",
+    "RNF219-AS1",
+    "SLC1A2",
+    "ZNF98",
+    "GPC5",
+    "ENC1",
+    "CHN1",
+    "MAP1B",
+    "YWHAH",
+    "ARPP19",
+    "CX3CR1",
+    "CLEC7A",
+    "CD86",
+    "P2RY13",
+    "SYK",
+    "FGFR3",
+    "COL5A3",
+    "SLC13A5",
+    "SLC25A18",
+    "AC007325.2",
+    "TSHZ2",
+    "COL22A1",
+    "LINC01202",
+    "SLC22A10",
+    "RORB",
+    "KIT",
+    "PRELID2",
+    "EYA4",
+    "PDGFD",
+    "FGF13",
+    "COL20A1",
+    "CSPG4",
+    "PTPRZ1",
+    "FERMT1",
+    "PCDH15",
+    "RELN",
+    "NDNF",
+    "CXCL14",
+    "ADARB2",
+    "FREM1",
+    "NPY",
+    "SST",
+    "NMU",
+    "SYNPR",
+    "TRBC2",
+    "NEFM",
+    "NEFL",
+    "VSNL1",
+    "TUBB2A",
+    "CTXN3",
+    "IBSP",
+    "NOG",
+    "NPNT",
+    "COL15A1",
+    "CNTN5",
+    "GRIK1",
+    "ELFN1",
+    "ROBO2",
+    "PDIA2",
+    "UPP1",
+    "PVALB",
+    "NPPC",
+    "GAD1",
+    "WNT16",
+    "SULF1",
+    "SLC17A7",
+    "PHYHIP",
+    "NRGN",
+    "SLC30A3",
+    "ADCYAP1",
+    "KIFC2",
+    "TNNT2",
+    "ALS2CL",
+    "ABCA7",
+    "MAPK11",
+    "GPR17",
+    "LINC01447",
+    "DCT",
+    "ZNF469",
+    "BCAS1",
+    "RPL32",
+    "TAC1",
+    "ATP1B1",
+    "CAMK2N2",
+    "HAPLN4",
+    "FOXF1",
+    "SEMA3G",
+    "CLDN5",
+    "LRRC32",
+    "GATA2",
+    "LHFPL3",
+    "PDGFRA",
+    "VCAN",
+    "GPNMB",
+    "MEGF11",
+    "IL26",
+    "HTR2C",
+    "PPP1R1C",
+    "FER1L6-AS2",
+    "CD36",
+    "MTRNR2L8",
+    "FTL",
+    "FAM107A",
+    "FTH1",
+    "CST3",
+    "LINC01445",
+    "LINC00323",
+    "MOBP",
+    "PLP1",
+    "ERMN",
+    "CSN1S1",
+    "GABRQ",
+    "PQLC2L",
+    "METTL7B",
+    "TXK",
+    "SMYD1",
+    "POSTN",
+    "IL7R",
+    "MCTP2",
+    "THEMIS",
+    "NPAS4",
+    "EGR4",
+    "FOSB",
+    "FOS",
+    "ARC",
+    "ANGPTL4",
+    "IGHG1",
+    "CHI3L1",
+    "HILPDA",
+    "SOCS3"
+  ],
+  "source_panel": "bundled locked DLPFC G5 panel",
+  "source_panel_sha256": "0013d8cb3b029c08cbf7aa1775321fa10ef6bd189093ca0177425019c96a01d4",
+  "marker_genes_remain_in_model_input": true,
+  "final_metric_uses_sc_signature": false,
+  "final_metric_definition": "corr(predicted fraction, observed ST marker expression)",
+  "direct_panel_sha256": "bbbee963dedb0369f82a47a13a8d44b3b15921fee9995d3b89f3338905eb6299"
+}

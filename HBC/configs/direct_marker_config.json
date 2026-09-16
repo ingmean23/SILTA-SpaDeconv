@@ -1,0 +1,37 @@
+{
+  "protocol": "direct marker-fraction colocalization v1",
+  "dataset_id": "hbc",
+  "panel": "configs/hbc_g5_panel.json",
+  "strict_invalid_score": -1.0,
+  "control_seed": 42,
+  "prediction_column_aliases": {
+    "T cell": [
+      "T cells",
+      "T-cell"
+    ],
+    "B cell": [
+      "B cells",
+      "B-cell"
+    ],
+    "NK cell": [
+      "NK cells",
+      "NK-cell"
+    ],
+    "fibroblast": [
+      "fibroblasts"
+    ],
+    "vascular endothelial cell": [
+      "vascular endothelial cells"
+    ],
+    "lymphatic endothelial cell": [
+      "lymphatic endothelial cells"
+    ]
+  },
+  "slices": {
+    "ds10": {
+      "st": "data/st.h5ad",
+      "coordinates": "data/cor.txt"
+    }
+  },
+  "display_name": "SILTA"
+}

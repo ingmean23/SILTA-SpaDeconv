@@ -1,0 +1,33 @@
+{
+  "artifact": "SILTA HBC Track-B representative endpoint checkpoint",
+  "status": "promoted_and_locked",
+  "checkpoint": "checkpoints/SILTA_HBC_TrackB_J0.model",
+  "checkpoint_sha256": "6226c6938db301e7c7ab3c69ce185ab80856ade477f91c24b9c1255460cb007b",
+  "checkpoint_size_bytes": 113279308,
+  "notes": [
+    "No raw HBC data, credentials, tokens, logs, or private machine paths are included."
+  ],
+  "role": "J0 endpoint selected in folds 0, 2, and 3 of the published complete-search nested protocol",
+  "standalone_checkpoint_evaluation": {
+    "evaluation": "representative checkpoint evaluated as one fixed method across all five Track-B folds",
+    "balanced_accuracy": 0.7668128961377028,
+    "macro_f1": 0.7543177727007955,
+    "macro_auroc": 0.9336830514543862,
+    "verified_locally": true
+  },
+  "published_pool_evaluation": {
+    "protocol": "Track B Spatial Generalization",
+    "outer_folds": 5,
+    "absolute_coordinates_used_as_features": false,
+    "probability_refinement_used": false,
+    "selected_feature_set": "multi_k4_k8_k20",
+    "selected_converter": "hgb_d2",
+    "mean_balanced_accuracy": 0.7847291723438397,
+    "mean_macro_f1": 0.7720106109438348,
+    "mean_macro_auroc": 0.9382780434608075,
+    "requires_complete_search_pool": true,
+    "reproducible_from_this_package": false,
+    "requires_second_endpoint": true,
+    "second_endpoint_checkpoint_retained": false
+  }
+}

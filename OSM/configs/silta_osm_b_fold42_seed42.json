@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "model_name": "SILTA",
+  "benchmark": "OSM Benchmark B",
+  "split_seed": 42,
+  "model_seed": 42,
+  "epoch": 7,
+  "inputs": {
+    "prepared_input": "../data/osm_prepared_input.npz"
+  },
+  "artifacts": {
+    "checkpoint": "../checkpoint/silta_osm_b_fold42_seed42.model",
+    "calibration_state": "../calibration/C01_C04_state.pt",
+    "calibration_parameters": "../calibration/C04_parameters.json",
+    "logits": "../outputs/checkpoint_logits.tsv.gz",
+    "checkpoint_fractions": "../outputs/checkpoint_fractions.tsv.gz",
+    "pre_c04_fractions": "../outputs/pre_c04_fractions.tsv.gz",
+    "prediction": "../outputs/silta_fractions.tsv.gz"
+  },
+  "architecture": {
+    "decon_architecture": "coop_direct",
+    "fusion_dim": 512,
+    "lambda_g": 0.5,
+    "lambda_x": 0.0,
+    "lambda_m": 0.0,
+    "structured_h_dim": 192,
+    "structured_g_dim": 192,
+    "structured_mode_dim": 64,
+    "use_h_stochastic": true,
+    "h_inference_use_mu": true,
+    "use_g_stochastic": false,
+    "g_inference_use_mu": true,
+    "e1_attention": "vanilla",
+    "e1_heads": 4,
+    "e2_attention": "fixed_gaussian_hypergraph",
+    "e2_heads": 2,
+    "distance_beta": 1.0,
+    "attention_gate": 0.1
+  },
+  "training_record": {
+    "stage1_epochs": 80,
+    "stage1_lr": 0.001,
+    "stage2_epochs": 7,
+    "stage2_lr": 0.003,
+    "fraction_replay_weight": 0.05,
+    "content_lr_factor": 0.02,
+    "h_kl_weight": 0.0001,
+    "g_kl_weight": 0.0,
+    "qnb_weight_start": 0.03,
+    "qnb_weight_end": 0.2,
+    "qnb_warmup_end_epoch": 5,
+    "spatial_smooth_weight": 0.005,
+    "sample_weight": 0.5
+  },
+  "calibration": {
+    "pipeline": ["C01_group_temperature", "C04_group_centered_shape"],
+    "c01_steps": 300,
+    "c04_bias_cap": 0.125,
+    "c04_temperature_cap": 0.25,
+    "c04_anchor_weight": 0.3,
+    "c04_steps": 100,
+    "c04_lr": 0.003
+  },
+  "expected": {
+    "spots": 300,
+    "genes": 33,
+    "cell_types": 31,
+    "parameters": 9982983,
+    "state_elements": 9985052
+  }
+}

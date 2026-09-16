@@ -1,0 +1,4 @@
+# Checkpoint binaries above GitHub's regular 100 MiB file limit.
+# These artifacts will be published separately.
+/DLPFC/checkpoint/silta_dlpfc_mix5_best_single_seed.model
+/HBC/checkpoints/SILTA_HBC_TrackB_J0.model

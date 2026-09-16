@@ -1,0 +1,19 @@
+benchmark: "OSM Benchmark B"
+ground_truth: "../data/ground_truth_fractions.tsv"
+coordinates: "../data/locations.tsv"
+metrics: "../data/method_summary.csv"
+output_dir: "../outputs/figures"
+primary_method: "SILTA"
+spot_id_column: "spot_id"
+coordinate_spot_id_column: "spot_id"
+coordinate_columns: ["x", "y"]
+invert_y: true
+methods:
+  - name: "SILTA"
+    prediction: "../outputs/silta_fractions.tsv.gz"
+    valid: true
+    n: 9
+  - name: "Baseline"
+    prediction: "../data/baseline_fractions.tsv.gz"
+    valid: true
+    n: 1

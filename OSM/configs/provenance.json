@@ -1,0 +1,30 @@
+{
+  "benchmark": "OSM Benchmark B",
+  "calibration_reload_max_abs_error": 0.0,
+  "lineage": {
+    "e2_attention": "fixed Gaussian distance-weighted hypergraph attention",
+    "epoch": 7,
+    "model_seed": 42,
+    "pseudo_family": "ordinary",
+    "split_seed": 42,
+    "stage1_epochs": 80,
+    "stage2_epochs": 7,
+    "task_id": "C_confirm_3x3_A_fixed_h2_b1_g0.1_ms42_f42"
+  },
+  "model": "SILTA",
+  "release_artifact_hashes": {
+    "calibration_parameters": "b1e4538f554a32ff124e10289048cd315b9545a38211c8cde658b14dfa26584a",
+    "calibration_state": "e6da86cf3682c0323a1c300ad99c62e86b57759f1938f04228b08b0f531534b8",
+    "checkpoint": "d6ce89ae28617cc768b499b503ae6cb4dcb58ba2357717e489ac30c0c53c10fa",
+    "sanitized_training_config": "1da9f74297d6f79a3acefbd892f84c2fac9c50abe6fbaab023e95861a4207e5c"
+  },
+  "schema_version": 1,
+  "source_artifact_hashes": {
+    "calibration_parameters": "027818adf8f8ce45b7e81239359ec347aa27a986511b2f8b2d04d686a0ff40ee",
+    "calibration_state": "931e2129d5779c65f538a83302da23db2a550a8daffdb218326f97c32adc0dd7",
+    "checkpoint": "d6ce89ae28617cc768b499b503ae6cb4dcb58ba2357717e489ac30c0c53c10fa",
+    "generated_training_config": "1725a337844efcd62a4cc3f612343202016a8f951ce8d5d8ec6e7a5aaae80285",
+    "release_manifest": "7ceef0c12c572fecfdb162e2318af2014dbd3b2c9708b1f402a3a34025c56568"
+  },
+  "target_blind_selection": true
+}

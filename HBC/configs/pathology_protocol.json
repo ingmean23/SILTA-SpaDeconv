@@ -1,0 +1,84 @@
+{
+  "display_name": "SILTA",
+  "protocol": "HBC Random-Direct and leakage-controlled Track-B spatial generalization",
+  "pathology": {
+    "random_direct": {
+      "seeds": [
+        17,
+        42,
+        89,
+        123,
+        2026
+      ],
+      "test_size": 0.25,
+      "inner_splits": 4
+    },
+    "spatial_trackb": {
+      "outer_splits": 5,
+      "inner_splits": 4,
+      "bins_per_axis": 8,
+      "minimum_test_count": 20,
+      "screen_top_k": 5,
+      "screen_feature_set": {
+        "id": "multi_k4_k8_k20",
+        "scales": [
+          4,
+          8,
+          20
+        ]
+      },
+      "feature_sets": [
+        {
+          "id": "single_k8",
+          "scales": [
+            8
+          ]
+        },
+        {
+          "id": "dual_k4_k12",
+          "scales": [
+            4,
+            12
+          ]
+        },
+        {
+          "id": "multi_k4_k8_k20",
+          "scales": [
+            4,
+            8,
+            20
+          ]
+        }
+      ],
+      "models": [
+        {
+          "id": "enet_c01",
+          "kind": "elasticnet",
+          "c": 0.1,
+          "l1_ratio": 0.0
+        },
+        {
+          "id": "enet_c1",
+          "kind": "elasticnet",
+          "c": 1.0,
+          "l1_ratio": 0.0
+        },
+        {
+          "id": "hgb_d2",
+          "kind": "hist_gradient_boosting",
+          "max_depth": 2,
+          "learning_rate": 0.03,
+          "max_iter": 160,
+          "l2_regularization": 0.5
+        }
+      ]
+    },
+    "selection_weights": {
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.4,
+      "macro_auroc": 0.2
+    },
+    "specialist_noninferiority": 0.005,
+    "minimum_fold_wins": 3
+  }
+}

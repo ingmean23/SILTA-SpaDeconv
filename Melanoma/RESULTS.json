@@ -1,0 +1,46 @@
+{
+  "release_id": "melanoma_ds6_T_C0_epoch2_seed42",
+  "dataset": "ds6",
+  "biological_sample": "Melanoma 4, replicate 1",
+  "cell_type": "T",
+  "seed": 42,
+  "epoch": 2,
+  "run_id": "C0",
+  "evaluation_protocol": "melanoma marker evidence v2; direct fraction-to-observed-marker colocalization",
+  "panel_role": "input_only",
+  "checkpoint": {
+    "path": "checkpoints/ds6_T_seed42_epoch2/model.model",
+    "sha256": "fcd6040058a61ba6dd9011379a6c2acbb841294d3964e14b744e587e92e07e41"
+  },
+  "prediction": {
+    "path": "expected/ds6_T/fractions.csv",
+    "sha256": "cf7cde5149f00116c3d17ded16af2f3b00801688311b8807aa9e7ff12ecdb0c4"
+  },
+  "metrics": {
+    "marker_pcc": 0.0699059108699994,
+    "marker_spearman": 0.0658180680674039
+  },
+  "fixed_baseline_frontier": {
+    "marker_pcc": 0.0467088581219465,
+    "marker_pcc_method": "SPOTlight",
+    "marker_spearman": 0.0401834193256177,
+    "marker_spearman_method": "SPOTlight"
+  },
+  "historical_dacg_frontier": {
+    "marker_pcc": 0.0386961498441055,
+    "marker_spearman": 0.0533291948533447
+  },
+  "margins_over_fixed_baseline": {
+    "marker_pcc": 0.0231970527480529,
+    "marker_spearman": 0.0256346487417862
+  },
+  "margins_over_historical_dacg": {
+    "marker_pcc": 0.0312097610258939,
+    "marker_spearman": 0.0124888732140592
+  },
+  "structural_health": {
+    "passed": true,
+    "collapse_flags": []
+  },
+  "claim_scope": "cell-type-level marker/spatial proxy winner; no spot-level fraction ground truth"
+}

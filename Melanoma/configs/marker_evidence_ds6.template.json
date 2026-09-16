@@ -1,0 +1,18 @@
+{
+  "protocol": "melanoma marker evidence v2",
+  "dataset_id": "melanoma_ds6_input_only_v2",
+  "panel": "configs/melanoma_input_only_literature_v2.json",
+  "strict_invalid_score": -1.0,
+  "control_seed": 42,
+  "control_min_delta": 0.0,
+  "bootstrap_repeats": 200,
+  "bootstrap_grid_size": 4,
+  "primary_cell_types": ["CAF", "Endo", "Macro", "NK", "T"],
+  "slices": {
+    "ds6": {
+      "st": "data/ds6/st.h5ad",
+      "st_counts": "data/ds6/ST_mel4_rep1_counts.tsv",
+      "coordinates": "data/ds6/ST_mel4_rep1_cor.txt"
+    }
+  }
+}

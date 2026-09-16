@@ -1,0 +1,50 @@
+{
+  "dataset_id": "dlpfc",
+  "panel": "configs/marker_panel.json",
+  "strict_invalid_score": -1.0,
+  "primary_cell_types": [
+    "Ex_10_L2_4",
+    "Inhib_5",
+    "Ex_8_L5_6",
+    "Inhib_2_VIP",
+    "Mix_2",
+    "Oligos_3",
+    "Ex_7_L4_6",
+    "Astros_3",
+    "Ex_5_L5",
+    "Micro/Macro",
+    "Astros_2",
+    "Ex_6_L4_6",
+    "Inhib_1",
+    "OPCs_1",
+    "Inhib_3_SST",
+    "Inhib_6_SST",
+    "Ex_2_L5",
+    "Inhib_8_PVALB",
+    "Mix_5",
+    "Inhib_7_PVALB",
+    "Ex_3_L4_5",
+    "Mix_4",
+    "Oligos_2",
+    "Mix_3",
+    "Endo",
+    "OPCs_2",
+    "Ex_1_L5_6",
+    "Mix_1",
+    "Oligos_1",
+    "Ex_9_L5_6",
+    "Ex_4_L_6",
+    "Inhib_4_SST",
+    "Astros_1"
+  ],
+  "control_seed": 17,
+  "control_min_delta": 0.0,
+  "bootstrap_repeats": 0,
+  "bootstrap_grid_size": 4,
+  "slices": {
+    "ds11": {
+      "st": "data/st.h5ad",
+      "coordinates": "data/coordinates.tsv"
+    }
+  }
+}
