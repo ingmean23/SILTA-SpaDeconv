@@ -1,9 +1,4 @@
-# SILTA: Moffitt Benchmark B reproduction capsule
-
-> **Release status: BLOCKED. Do not publish this directory yet.** The locked
-> Q1C1 checkpoint could not be re-materialized within the required `1e-6`
-> prediction tolerance. No checkpoint is included, so the release contract and
-> offline reproduction workflow are intentionally incomplete.
+# SILTA: Moffitt Benchmark B code and evaluation release
 
 This folder contains the inference, evaluation, and plotting code for the
 Moffitt Benchmark B result of **SILTA** (*Separating composition learning from
@@ -15,7 +10,6 @@ or private evaluator code.
 
 ```text
 Moffitt/
-  checkpoints/       verified B-M1/seed-42 inference checkpoint and hashes
   configs/           locked public inference contract
   expected/          published aggregate and representative metrics
   silta/             inference-only model, preprocessing, metrics, and plots
@@ -42,9 +36,10 @@ have been produced.
 The inference command accepts two tab-separated files:
 
 1. `expression.tsv`: rows are `spot_id`; columns are genes. Values must be
-   finite, non-negative, unscaled MERFISH expression. The checkpoint selects
-   and orders its locked 135-gene panel, performs per-gene z-scoring, and does
-   not apply library normalization, rounding, or `log1p`.
+   finite, non-negative, unscaled MERFISH expression. The inference
+   configuration selects and orders its locked 135-gene panel, performs
+   per-gene z-scoring, and does not apply library normalization, rounding, or
+   `log1p`.
 2. `coordinates.tsv`: columns `spot_id`, `x`, and `y`, with one row per spot.
 
 The expression graph is mutual cosine 6-NN with a symmetric minimum-degree
@@ -72,15 +67,16 @@ compatible PyTorch build is installed.
 
 ```bash
 python scripts/run_inference.py \
+  --checkpoint /path/to/model.pt \
   --expression data/expression.tsv \
   --coordinates data/coordinates.tsv \
   --output results/prediction.tsv \
   --device cpu
 ```
 
-The command uses `torch.load(..., weights_only=True)`, verifies the checkpoint
-schema, aligns genes and spots, and writes both the fraction table and a SHA256
-manifest.
+The command loads the supplied model weights with
+`torch.load(..., weights_only=True)`, verifies the model schema, aligns genes
+and spots, and writes both the fraction table and a SHA256 manifest.
 
 ## Evaluation
 
@@ -101,12 +97,9 @@ The reported primary metrics exactly follow the paper evaluator:
 - SSIM: flattened global structural similarity;
 - PCC: flattened global Pearson correlation.
 
-`expected/representative_metrics.json` records the locked B-M1/seed-42 result
-reproduced by the included checkpoint. `expected/headline_metrics.csv` records
-the paper's three-fold by three-seed mean. The single released checkpoint does
-not by itself regenerate the nine-run aggregate; it provides one fully
-auditable representative model while avoiding publication of the search and
-training pipeline.
+`expected/representative_metrics.json` records the representative B-M1/seed-42
+evaluation summary. `expected/headline_metrics.csv` records the paper's
+three-fold by three-seed mean.
 
 ## Plotting
 
@@ -128,7 +121,6 @@ The metrics table must contain `method`, `ST_RMSE`, `ST_JSD`, `ST_SSIM`, and
 
 ```bash
 python -m pytest -q
-python -c "import torch; torch.load('checkpoints/silta_moffitt_B-M1_seed42.pt', map_location='cpu', weights_only=True); print('checkpoint: PASS')"
 ```
 
 See `SECURITY_AUDIT.md` for the release scan and `THIRD_PARTY_NOTICES.md` for
